@@ -29,6 +29,7 @@ fi
 
 # Final repository
 DEPLOY_REPO="https://${ACCESS_TOKEN}@github.com/${REPOSITORY_NAME}.git"
+echo "https://ACCESS_TOKEN@github.com/${REPOSITORY_NAME}.git" 
 if [ "$TARGET_LINK" ]; then
   DEPLOY_REPO="$TARGET_LINK"
 fi
